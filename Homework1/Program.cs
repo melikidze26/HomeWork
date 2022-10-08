@@ -8,12 +8,15 @@ namespace Homework1
         {
             Console.WriteLine("Enter your name");
 
-            Console.ReadLine();
+            string name = Console.ReadLine();
 
             Console.WriteLine("Enter your surname");
 
-            Console.ReadLine();
+            string surName = Console.ReadLine();
 
+            Console.WriteLine("you are");
+
+            Console.WriteLine($"{name} {surName}");
         }
     }
 }
